@@ -6,7 +6,7 @@ function Home() {
 
   return (
     <div className="grid grid-cols-3 p-4 gap-0">
-      {/* PAIDI 1 ghyghgjhj*/}
+      {/* PAIDI 1*/}
       <ul className="">
         <li>
           <img
