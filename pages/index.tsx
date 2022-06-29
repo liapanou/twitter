@@ -140,8 +140,10 @@ function Home() {
          */}
         <div className=" px-12 py-6  text-black">
           <ul>
-            {tweets.map((a) => (
-              <li className="shadow my-2 px-4 py-2 ">{a}</li>
+            {tweets.map((a, idx) => (
+              <li key={idx} className="shadow my-2 px-4 py-2 ">
+                {a}
+              </li>
             ))}
           </ul>
         </div>
